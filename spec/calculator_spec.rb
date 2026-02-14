@@ -10,7 +10,7 @@ RSpec.describe Calculator do
       calculator = Calculator.new
       # 実行した時に3だったら .　と表示
       # 3以外だったら F エラー内容
-      expect(calculator.add(1, 2)).to eq(3)
+      expect(calculator.add(1, 2)).to eq(4)
     end
   end
 end
